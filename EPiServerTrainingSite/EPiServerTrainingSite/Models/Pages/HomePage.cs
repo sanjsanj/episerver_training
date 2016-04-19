@@ -7,6 +7,7 @@ using EPiServer.Web;
 namespace EPiServerTrainingSite.Models.Pages
 {
     [ContentType(DisplayName = "HomePage", GUID = "2365453b-1b19-4b22-9215-f2c5a217ba07", Description = "")]
+    [AvailableContentTypes(Availability.Specific, Include = new[] { typeof(LandingPage) })]
     public class HomePage : PageData
     {
 
