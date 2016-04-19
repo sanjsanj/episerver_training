@@ -2,6 +2,7 @@
 using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.DataAnnotations;
+using EPiServerTrainingSite.Models.Blocks;
 
 namespace EPiServerTrainingSite.Models.Pages
 {
@@ -14,6 +15,7 @@ namespace EPiServerTrainingSite.Models.Pages
             Name = "Main content area",
             GroupName = SystemTabNames.Content,
             Order = 1)]
+        [AllowedTypes(new[] { typeof(HeroBlock) })]
         public virtual ContentArea MainContentArea { get; set; }
 
     }
