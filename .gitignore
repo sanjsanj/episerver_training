@@ -235,3 +235,4 @@ _Pvt_Extensions
 # FAKE - F# Make
 .fake/
 /EPiServerTrainingSite/EPiServerTrainingSite/License.config
+/EPiServerTrainingSite/EPiServerTrainingSite/App_Data/blobs/f5d975329b5443d2a45f965237882196

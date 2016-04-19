@@ -2,6 +2,7 @@
 using EPiServer.Core;
 using EPiServer.DataAbstraction;
 using EPiServer.DataAnnotations;
+using EPiServer.Web;
 
 namespace EPiServerTrainingSite.Models.Pages
 {
@@ -16,6 +17,15 @@ namespace EPiServerTrainingSite.Models.Pages
             GroupName = SystemTabNames.Content,
             Order = 1)]
         public virtual XhtmlString MainBody { get; set; }
+
+        [CultureSpecific]
+        [Display(
+            Name = "Main image",
+            Description = "The main image will be shown in the main content area of the page.",
+            GroupName = SystemTabNames.Content,
+            Order = 2)]
+        [UIHint(UIHint.Image)]
+        public virtual ContentReference MainImage { get; set; }
 
     }
 }
