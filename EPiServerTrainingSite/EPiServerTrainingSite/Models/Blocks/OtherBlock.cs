@@ -5,8 +5,8 @@ using EPiServer.DataAnnotations;
 
 namespace EPiServerTrainingSite.Models.Blocks
 {
-    [ContentType(DisplayName = "HeroBlock", GUID = "0a2f6bc6-f161-4c60-8136-b511e7a0e05e", Description = "")]
-    public class HeroBlock : BlockData
+    [ContentType(DisplayName = "OtherBlock", GUID = "5bc4d25c-04d2-48db-9bdb-11b4cf7b9946", Description = "")]
+    public class OtherBlock : BlockData
     {
 
         [CultureSpecific]

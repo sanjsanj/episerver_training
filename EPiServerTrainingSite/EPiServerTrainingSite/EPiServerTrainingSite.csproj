@@ -233,6 +233,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\Blocks\HeroBlock.cs" />
+    <Compile Include="Models\Blocks\OtherBlock.cs" />
     <Compile Include="Models\Media\ImageFile.cs" />
     <Compile Include="Models\Pages\HomePage.cs" />
     <Compile Include="Models\Pages\LandingPage.cs" />
